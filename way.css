@@ -1,0 +1,476 @@
+* {
+  overflow: hidden;
+}
+
+.whole_screen {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+audio {
+  margin-top: 50%;
+  opacity: 10%;
+}
+
+audio::-webkit-media-controls-panel,
+      audio::-webkit-media-controls-mute-button,
+      audio::-webkit-media-controls-play-button,
+      audio::-webkit-media-controls-timeline-container,
+      audio::-webkit-media-controls-current-time-display,
+      audio::-webkit-media-controls-time-remaining-display,
+      audio::-webkit-media-controls-timeline,
+      audio::-webkit-media-controls-volume-slider-container,
+      audio::-webkit-media-controls-volume-slider,
+      audio::-webkit-media-controls-seek-back-button,
+      audio::-webkit-media-controls-seek-forward-button,
+      audio::-webkit-media-controls-fullscreen-button,
+      audio::-webkit-media-controls-rewind-button,
+      audio::-webkit-media-controls-return-to-realtime-button,
+      audio::-webkit-media-controls-toggle-closed-captions-button {
+        background: red;
+        color: red;
+        opacity: 10%;
+  
+      }
+
+.information {
+  font-family: Arial;
+  font-size: 30px;
+  color: red;
+}
+
+#game[data-period="day"] .wallpaper {
+  background: url("pictures/panorama_lis.png") repeat-x center;
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.wallpaper_big_city {
+  background: url("pictures/panorama_kyiv.png") repeat-x center;
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#game[data-period="evening"] .wallpaper {
+  background: url("pictures/panorama_lis_evening.png") repeat-x center;
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#game[data-period="night"] .wallpaper {
+  background: url("pictures/panorama_lis_night.png") repeat-x center;
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.lights1 {
+  background: url("pictures/lights.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.lights2 {
+  background: url("pictures/lights2.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.lights3 {
+  background: url("pictures/lights3.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.kovel_morning {
+  background: url("pictures/Kovel_morning.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.kovel {
+  background: url("pictures/Kovel.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.rozhyshche {
+  background: url("pictures/Rozhyshche.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.kivertsi_morning {
+  background: url("pictures/Kivertsi_morning.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.kivertsi {
+  background: url("pictures/Kivertsi.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.lutsk_morning {
+  background: url("pictures/Lutsk_morning.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.lutsk {
+  background: url("pictures/Lutsk.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.rivne_night {
+  background: url("pictures/Rivne_night.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.zdolbuniv_night {
+  background: url("pictures/Zdolbuniv_night.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.ostroh_night {
+  background: url("pictures/Ostroh_night.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.kryvyn_night {
+  background: url("pictures/Kryvyn_night.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.slavuta_night {
+  background: url("pictures/Slavuta_night.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.shepetivka_night {
+  background: url("pictures/Shepetivka_night.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.polonne_night {
+  background: url("pictures/Polonne_night.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.pechanivka_night {
+  background: url("pictures/Pechanivka_night.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.chudniv_volynsky_night {
+  background: url("pictures/Chudniv_Volynsky_night.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.berdychiv_night {
+  background: url("pictures/Berdychiv_night.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.kozyatyn_morning {
+  background: url("pictures/Kozyatyn_morning.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.kozyatyn {
+  background: url("pictures/Kozyatyn.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.kozyatyn_night {
+  background: url("pictures/Kozyatyn_night.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.bila_tservka {
+  background: url("pictures/Bila_Tserkva.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.kyiv_morning {
+  background: url("pictures/Kyiv_morning.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.kyiv {
+  background: url("pictures/Kyiv.png") no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  transition: 2s;
+}
+
+.train_without {
+  background: url("pictures/train_without.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  bottom: 33.5%;
+  width: 1280px;
+  height: 135px;
+}
+
+.train_without_night[data-period="night"] {
+  background: url("pictures/train_without_night.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  bottom: 33.5%;
+  width: 1280px;
+  height: 135px;
+}
+
+#game[data-period="day"][data-direction="left"] #train {
+  background: url("pictures/train_chs4_left.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  bottom: 33.5%;
+  width: 1280px;
+  height: 135px;
+}
+
+#game[data-period="evening"][data-direction="left"] #train {
+  background: url("pictures/train_chs4_left_evening.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  bottom: 33.5%;
+  width: 1280px;
+  height: 135px;
+}
+
+#game[data-period="day"][data-direction="right"] #train {
+  background: url("pictures/train_chs4_right.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  bottom: 33.5%;
+  width: 1280px;
+  height: 135px;
+}
+
+#game[data-period="day"][data-direction="left"][data-locomotive="chs2"] #train {
+  background: url("pictures/train_chs2_left.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  bottom: 33.5%;
+  width: 1280px;
+  height: 135px;
+}
+
+#game[data-period="day"][data-direction="right"][data-locomotive="chs2"] #train {
+  background: url("pictures/train_chs2_right.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  bottom: 33.5%;
+  width: 1280px;
+  height: 135px;
+}
+
+#game[data-period="night"][data-direction="left"] #train {
+  background: url("pictures/train_chs4_left_night.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  bottom: 33.5%;
+  width: 1280px;
+  height: 135px;
+}
+
+#game[data-period="night"][data-direction="right"] #train {
+  background: url("pictures/train_chs4_right_night.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  bottom: 33.5%;
+  width: 1280px;
+  height: 135px;
+}
+
+.hide_object {
+
+}
+
+hr {
+  height: 7px;
+  width: 100%;
+  top: 65%;
+  background-color: black;
+  position: absolute;
+  border: none;
+}
+
+.stationhidden {
+  transition: none;
+  display: none;
+}
+
+#game[data-run="true"] .wallpaper {
+  animation: runwallpaper 15s linear infinite;
+}
+
+.runwallpaperslow {
+  animation: runwallpaper 25s linear infinite;
+}
+
+#game[data-direction="right"] #wallpaper {
+  animation: runwallpaperback 15s linear infinite;
+}
+
+.runwallpaperbackslow {
+  animation: runwallpaperback 25s linear infinite;
+}
+
+.runtrain {
+	animation: runtrain .7s linear alternate infinite;
+}
+
+#game[data-run="false"] #wallpaper {
+  animation: none !important;
+}
+
+@keyframes runtrain {
+  100% {
+      -webkit-transform: translateY(-4px);
+    }
+}
+
+@keyframes runwallpaper {
+ from { background-position: -14000px 100%, 0 0;}
+ to { background-position: 0 100%, 0 0; }
+}
+
+@keyframes runwallpaperslow {
+ from { background-position: -14000px 100%, 0 0;}
+ to { background-position: 0 100%, 0 0; }
+}
+
+@keyframes runwallpaperback {
+ from { background-position: 14000px 100%, 0 0;}
+ to { background-position: 0 100%, 0 0; }
+}
+
+@keyframes runwallpaperbackslow {
+ from { background-position: 14000px 100%, 0 0;}
+ to { background-position: 0 100%, 0 0; }
+}
